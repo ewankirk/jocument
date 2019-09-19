@@ -1,12 +1,4 @@
 '''
-Script Name : untitled0.py
-Script Type :
-Summary     :
-Test Script :
-Created     : 28Jun19
-Description :
-
-Copyright 2019 - Cantab Capital Partners LLP
 '''
 
 import nbconvert
@@ -15,10 +7,6 @@ import nbformat
 from PyQt5.QtWidgets import QApplication
 from bs4 import BeautifulSoup
 
-import pydb
-
-from pyccp.environment import user_home_path
-from pyccp.gui.dialogs import dialog_list_searchable, dialog_select_file, open_single_dropdown_dialog
 
 BLOG_CSS = '''
 <style type="text/css">
